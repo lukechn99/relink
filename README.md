@@ -14,15 +14,19 @@ __Questions to ask__
 __What it needs to do__
 * Identify an outdated link
 * Find the page from the link
+
 ```ex. recipes.com/alfredo_sauce```
 * Update old link
 
 __What I propose__
 * Program identifies link
 * Program tests link
+
 ```viable if it lands on a webpage, unviable it it hits some sort of error page or home page (because sometimes a non-existant page will redirect to a homepage)```
 * If viable then move on
 * If unviable then use hints in URL to search for and locate new page
+
 ```for example the people at recipes.com has changed their site layout so that there is a sub-directory for sauces. *recipes.com/alfredo_sauce* is now *recipes.com/sauces/alfredo_sauce*```
+
 ```perhaps we could parse the URL and search web indexes for "recipes.com", "alfredo", and "sauce" to find the new URL. Is there a more stable way to do this?```
 * Use located URL to update old link
