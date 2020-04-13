@@ -2,7 +2,7 @@
 Automatically change links to outdated website directories
 
 __Rationale__
-Oftentimes we will come across a webpage with a list of resources. They could be for learning Python, or a list of Italian pasta recipes. However, the site may have not been managed/updated recently, and one of the links could be outdated. Can we write a program that will update the link?
+* Oftentimes we will come across a webpage with a list of resources. They could be for learning Python, or a list of Italian pasta recipes. However, the site may have not been managed/updated recently, and one of the links could be outdated. Can we write a program that will update the link?
 
 __Questions to ask__
 * How does someone invoke this program?
