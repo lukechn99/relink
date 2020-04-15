@@ -6,7 +6,7 @@ __Rationale__
 
 __Questions to ask__
 * How does someone invoke this program?
-* Within what bounds will it function? (Within a webpage? Site? Domain?
+* Within what bounds will it function? (Within a webpage? Site? Domain?)
 * How will it find the updated link?
 * What language or API would be best for this?
 * Should it be run as a script? Software? JavaScript module?
@@ -22,7 +22,7 @@ __What I propose__
 * Program identifies link
 * Program tests link
 
-```viable if it lands on a webpage, unviable it it hits some sort of error page or home page (because sometimes a non-existant page will redirect to a homepage)```
+```It's determined viable if it lands on a webpage and unviable it it hits some sort of error page or home page (because sometimes a non-existant page will redirect to a homepage)```
 * If viable then move on
 * If unviable then use hints in URL to search for and locate new page
 
